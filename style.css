@@ -9,7 +9,7 @@
 .nav_tech{
     background-image: url(DECKS.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
     
     /* hieght of nav box */
     height:700px;
