@@ -7,7 +7,9 @@
 }
 
 .nav_tech{
-    background-image: url(401TECHDECKS/DECKS.png);
+    background-image: url(DECKS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* hieght of nav box */
     height:700px;
     display: flex;
@@ -33,7 +35,7 @@
 
 
 #navtag_tech{
-    background-color:#000000;
+    background-color:#D7385E;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
