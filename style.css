@@ -23,6 +23,24 @@
     z-index: 999;
 }
 
+.nav_techs{
+                                background-image: url(RAMPS.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    postion:relative;
+    /* hieght of nav box */
+    height:600px;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    position: sticky;
+    /*Menu THings font size*/
+    font-size: 1.2rem;
+    z-index: 999;
+}
+
+
 .navdiv_tech{
     display: flex;
     justify-content: space-between;
@@ -141,7 +159,7 @@
 }
 
 .featured{
-    background-color:#3D405B;
+    background-color:#8f5d5d;
     color:#FF8B6A;
 }
 
@@ -151,6 +169,6 @@
 }
 
 body{
-background-color: #293b50;
+background-color: #293d53;
 justify-content: center;
 }
