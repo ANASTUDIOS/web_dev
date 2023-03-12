@@ -105,7 +105,7 @@
 
 .navlink_tech{
    /* COlor of menu text */
-    color: #000000;
+    color:#000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,7 +187,12 @@
 
 .footer{
     background-color: #4a4a4a;
+    color: #323232;
     height: 200px; 
+}
+
+html {
+    scroll-behavior:
 }
 
 body{
