@@ -24,7 +24,24 @@
 }
 
 .nav_techs{
-                                background-image: url(RAMPS.svg);
+    background-image: url(RAMPS.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    postion:relative;
+    /* hieght of nav box */
+    height:600px;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    position: sticky;
+    /*Menu THings font size*/
+    font-size: 1.2rem;
+    z-index: 999;
+}
+
+.nav_teched{
+    background-image: url(DECKED.svg);
     background-repeat: no-repeat;
     background-size:cover;
 
@@ -116,12 +133,12 @@
 
 */
 
-.navlink_tech:hover {
+.navlink_tech:active {
     text-decoration: underline;
-    transition: all 1.4s ease;
-} 
+    
+}
 
-.about , .purchase ,.featured, .footer{
+.black , .about , .purchase ,.featured, .footer{
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -148,9 +165,14 @@
     float:left;
 }
 
+.black{
+    color:#FFC09D;
+    background-color:#2f2f2f;
+}
+
 .about{
-    background-color:#FFD6C2;
-    color:#FF8B6A;
+    background-color:#FFC09D;
+    color:#D7385E;
 }
 
 .purchase{
@@ -159,7 +181,7 @@
 }
 
 .featured{
-    background-color:#8f5d5d;
+    background-color:#D7385E;
     color:#FF8B6A;
 }
 
@@ -169,6 +191,6 @@
 }
 
 body{
-background-color: #293d53;
+background-color: #ffffff;
 justify-content: center;
 }
