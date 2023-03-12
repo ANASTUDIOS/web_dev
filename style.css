@@ -133,9 +133,12 @@
 
 */
 
-.navlink_tech:active {
-    text-decoration: underline;
-    
+.navlink_tech:hover{
+   font-style: italic;
+}
+
+.navlink_tech:focus{
+    font-style: italic;
 }
 
 .black , .about , .purchase ,.featured, .footer{
