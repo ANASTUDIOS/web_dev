@@ -2,18 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', serif;
+    font-family: 'Podkova', serif;
     font-weight: 500;
 }
 
 .nav_tech{
-    background-image: url(DECKS.svg);
+    background-image: url(HOME.svg);
     background-repeat: no-repeat;
     background-size:cover;
 
     postion:relative;
     /* hieght of nav box */
-    height:600px;
+    height:900px;
     display: flex;
     justify-content: top;
     align-items: top;
@@ -24,13 +24,13 @@
 }
 
 .nav_techs{
-    background-image: url(Obstacles.svg);
+    background-image: url(OBSTACLES.svg);
     background-repeat: no-repeat;
     background-size:cover;
 
     postion:relative;
     /* hieght of nav box */
-    height:600px;
+    height:900px;
     display: flex;
     justify-content: top;
     align-items: top;
@@ -41,13 +41,13 @@
 }
 
 .nav_teched{
-    background-image: url(DECKED.svg);
+    background-image: url(DECKS.svg);
     background-repeat: no-repeat;
     background-size:cover;
 
     postion:relative;
     /* hieght of nav box */
-    height:600px;
+    height:900px;
     display: flex;
     justify-content: top;
     align-items: top;
@@ -76,7 +76,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: #000000;
+    -moz-text-fill-color: #ffffff;
     align-items: center;
     display: flex;
     cursor: pointer;
@@ -105,7 +105,7 @@
 
 .navlink_tech{
    /* COlor of menu text */
-    color:#000000;
+    color:#ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,32 +144,59 @@
 .black , .about , .purchase ,.featured, .footer{
     text-decoration: none;
     display: flex;
-    justify-content: center;
     /*Menu THings font size*/
     font-size: 1rem;
     position: relative;
     z-index: 1;
-    height: 600px;
-    justify-content: center;
+    height: 900px;
+    padding-left: 60px;
+    justify-content: left;
     font-size: 1.2rem;
+}
+
+.abt{
+    text-decoration: none;
+    display: flex;
+    /*Menu THings font size*/
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+    width:550px;
+    height: 50%;
+    margin-left: 800px;
+    justify-content: left;
+    font-size: 1.2rem;
+}
+
+.abts{
+   background-color: #353535;
+   display: flex;
+   /*Menu THings font size*/
+   font-size: 1rem;
+   position: relative;
+   z-index: 1;
+   width:550px;
+   height: 50%;
+   margin-left: 0px;
+   justify-content: left;
+   font-size: 1.2rem;
 }
 
 .about_image{
     text-decoration: none;
     background-color:#d2b6b6;
     display: flex;
-    justify-content: center;
     /*Menu THings font size*/
     font-size: 1rem;
     position: relative;
     z-index: 1;
-    justify-content: center;
+    justify-content: left;
     font-size: 1.2rem;
     float:left;
 }
 
 .black{
-    color:#FFC09D;
+    color:#B42C4C;
     background-color:#2f2f2f;
 }
 
@@ -184,8 +211,8 @@
 }
 
 .featured{
-    background-color:#D7385E;
-    color:#FF8B6A;
+    background-color:#B42C4C;
+    color:#353535;
 }
 
 .footer{
@@ -194,8 +221,15 @@
     height: 200px; 
 }
 
+.tabs{
+    background-color: #4a4a4a;
+    color: #323232;
+    height: 700px; 
+    width:1200px;
+}
+
 html {
-    scroll-behavior:
+    
 }
 
 body{
