@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Podkova', serif;
+    font-family: 'Shrikhand', serif;
     font-weight: 500;
 }
 
@@ -141,7 +141,7 @@
     font-style: italic;
 }
 
-.black , .about , .purchase ,.featured, .footer{
+.BLACK , .RED , .LIGHT ,.ORANGE, .footer, .BOX, .LIGHT_ORANGE{
     text-decoration: none;
     display: flex;
     /*Menu THings font size*/
@@ -154,7 +154,7 @@
     font-size: 1.2rem;
 }
 
-.abt{
+.GRAY-BOX{
     text-decoration: none;
     display: flex;
     /*Menu THings font size*/
@@ -168,8 +168,8 @@
     font-size: 1.2rem;
 }
 
-.abts{
-   background-color: #353535;
+.RED-BOX{
+   background-color: #3b3b3b;
    display: flex;
    /*Menu THings font size*/
    font-size: 1rem;
@@ -195,24 +195,24 @@
     float:left;
 }
 
-.black{
-    color:#B42C4C;
+.BLACK{
+    color:#FB7B6B;
     background-color:#2f2f2f;
 }
 
-.about{
-    background-color:#FFC09D;
+.RED{
+    background-color:#FF9C8F;
     color:#D7385E;
 }
 
-.purchase{
-    background-color:#FF8B6A;
+.LIGHT{
+    background-color:#FF8375;
     color:#FFD6C2;
 }
 
-.featured{
-    background-color:#B42C4C;
-    color:#353535;
+.ORANGE{
+    background-color:#FB7B6B;
+    color:#FFD6C2;
 }
 
 .footer{
@@ -221,11 +221,14 @@
     height: 200px; 
 }
 
-.tabs{
-    background-color: #4a4a4a;
-    color: #323232;
-    height: 700px; 
-    width:1200px;
+.BOX{
+    background-color: #D7385E;
+    color: #FFD6C2;
+}
+
+.LIGHT_ORANGE{
+    background-color: #FFC09D;
+    color: #FB7B6B;
 }
 
 html {
