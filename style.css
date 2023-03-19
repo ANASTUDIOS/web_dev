@@ -105,7 +105,7 @@
 
 .navlink_tech{
    /* COlor of menu text */
-    color:#ffffff;
+    color:#FFD6C2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,10 +135,12 @@
 
 .navlink_tech:hover{
    font-style: italic;
+   background-color: #D7385E;
 }
 
 .navlink_tech:focus{
     font-style: italic;
+    background-color: #D7385E;
 }
 
 .BLACK , .RED , .LIGHT ,.ORANGE, .footer, .BOX, .LIGHT_ORANGE{
