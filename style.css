@@ -61,7 +61,7 @@
 .navdiv_tech{
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 120px;
     z-index: 1;
     width: 100%;
     max-width:1300px;
@@ -99,7 +99,8 @@
 
 
 .navitem_tech{
-    height:80px;
+    /* height of bg of nag bar links*/
+    height: fit-content;
 }
 
 
